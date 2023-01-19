@@ -7,18 +7,18 @@
 }
 @media screen and (max-width: 1024px){
     .lead {
-        max-width: 76.875%;
-        margin: 46px auto;
+        margin: 46px auto 0;
+        min-width: 928px;
     }
 }
-@media screen and (min-width: 768px) and (max-width:1024px){
+@media screen and (min-width: 768px) and (max-width:1023px){
     .lead {
-        min-width: 100%;
-        margin: 48px auto;
+        min-width: 768px;
+        margin: 48px auto 0;
     }
 }
-@media screen and (min-width: 320px) and (max-width:768px){
+@media screen and (min-width: 320px) and (max-width:767px){
     .lead {
-        min-width: 100%;
+        min-width: 320px;
     }
 }
