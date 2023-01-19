@@ -1,0 +1,35 @@
+.places {
+    margin: 92px auto;
+    max-width: 984px;
+    min-height: 3392px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, minmax(min-content,max-content));
+    row-gap: 80px;
+}
+@media screen and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+        min-height: 3292px;
+    }
+}
+@media screen and (max-width: 768px){
+    .places {
+        margin: 88px auto 0;
+        max-width: 720px;
+        min-height: 2808px;
+        gap: 73px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 585px){
+    .places {
+        margin: 64px auto 0;
+        max-width: 320px;
+        min-height: 5177px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, minmax(min-content,max-content));
+        row-gap: 50px;
+        column-gap: 0;
+    }
+}

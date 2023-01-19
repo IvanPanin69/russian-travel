@@ -1,0 +1,26 @@
+.footer {
+    position: relative;
+    margin: 92px auto 0;
+    padding: 0 0 24px;
+    display: flex;
+    flex-direction: row;
+    max-width: 92.5%;
+}
+@media screen and (max-width: 1024px){
+    .footer {
+        max-width: 90.625%;
+    }
+}
+@media screen and (max-width: 768px){
+    .footer {
+        max-width: 93.75%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 650px){
+    .footer {
+        max-width: 58.125%;
+        flex-direction: column;
+        gap: 0;
+        margin: 64px 16px 0;
+    }
+}

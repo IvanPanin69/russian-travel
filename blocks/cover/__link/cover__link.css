@@ -1,0 +1,45 @@
+.cover__link {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../../images/cover-ZDstation.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    min-width: 560px;
+    padding: 20.69% 26.35%;
+    margin: 0 auto;
+    max-height: fit-content;
+}
+.cover__link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(42, 44, 47, .3);
+}
+.cover__link:hover::before {
+    background-color: rgba(42, 44, 47, 0.8);
+}
+@media screen and (min-width: 1024px) and (max-width:1279px){
+    .cover__link {
+        padding: 19% 22.65625%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .cover__link {
+        padding: 14.974% 13.541%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:767px){
+    .cover__link {
+        min-height: 79.375%;
+        min-width: 90%;
+        padding:10.3125% 5%;
+    }
+}
